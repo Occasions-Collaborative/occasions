@@ -5,6 +5,10 @@ import { NextResponse } from 'next/server'
 export const dynamic = 'force-dynamic'
 
 export async function POST(request: Request) {
+  async function signout() {
+    const { error } = await supabase.auth.signOut()
+  }
+
   const requestUrl = new URL(request.url)
   const supabase = createRouteHandlerClient({ cookies })
 

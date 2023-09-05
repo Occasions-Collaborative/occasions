@@ -17,11 +17,13 @@
 
 ### Login
 
-1. through google
-2. through oauth 2
-3. through email id
+1. through google, github(add github in the code and registered the app too, but cant see any change.)
+2. through oauth 2 - to be done for OTP verification
+3. through email id - Render issue, no confirmation email being sent.
 
 ### Database authentication - Supabase
+
+Done, but there seems to be a render issue.
 
 ### Dashboard
 
