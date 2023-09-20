@@ -1,3 +1,5 @@
+### As of 20 September, the vercel production seems to be working fine.
+
 ## Issues occurring in deployment.
 
 ### The website says:
